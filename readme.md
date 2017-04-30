@@ -23,7 +23,7 @@ En este laboratorio se solicita desarrollar un programa en **Lex** tal que:
 
 ```
 >> flex source.l
->> gcc -o source lex.yy.c -ll;
+>> gcc -o source lex.yy.c -ll
 ```
 
 #### <img src="Icons/4.png"> Ejecución
