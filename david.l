@@ -38,8 +38,9 @@ int num = 0;
 [0-9]+ {num++, printf("%s", yytext);} /* Si encuentra un número entero, lo cuenta */
 [";"]+ {printf("%s\n", yytext);} /* Si detecta ";" realiza un salto de línea */
 [#]{1}[ a-zA-Z0-9]* {} /* Si encuentra una línea comentada (que comienze con '#'), la borra */
-[ ]+ {printf(" ");} /* Si encuentra dos o más blancos seguidos, lo sustituye por un único blanco */
 [\t]+ {printf("\t");} /* Si encuentra dos o más tabuladores, lo sustituye por un tabulador */
+[" "]+ {printf(" ");} /* Si encuentra dos o más blancos seguidos, lo sustituye por un único blanco */
+
 %%
 
 int main(){
