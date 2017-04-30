@@ -2,7 +2,7 @@ Laboratorio 2 - LEX
 ===================
 
 
-Laboratorio 2 de <img src="Icons/1.png"> **Fundamentos de Ciencia de la Computación**. Se utiliza el Analizador Léxico <i class="icon-cog"></i> **Lex**.
+Laboratorio 2 de <img src="Icons/3.png"> **Fundamentos de Ciencia de la Computación**. Se utiliza el Analizador Léxico <img src="Icons/2.png"> **Lex**.
 
 ----------
 
