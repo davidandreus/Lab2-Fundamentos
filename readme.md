@@ -19,14 +19,14 @@ En este laboratorio se solicita desarrollar un programa en **Lex** tal que:
 > - Que imprima un texto tal y como está en el archivo de entrada, pero que cada vez que detecte un ";" imprima el texto que va a continuación en otra línea nueva.
 > - Que indique cuántas veces ha detectado un número entero en un fichero de texto.
 
-#### <img src="Icons/4.png"> Compilación
+#### <img src="Icons/6.png"> Compilación
 
 ```
 flex source.l
 gcc -o source lex.yy.c -ll;
 ```
 
-#### <i class="icon-upload"></i> Ejecución
+#### <img src="Icons/4.png"> Ejecución
 
 ```
 ./source
