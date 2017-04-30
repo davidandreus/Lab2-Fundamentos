@@ -22,8 +22,8 @@ En este laboratorio se solicita desarrollar un programa en **Lex** tal que:
 #### <img src="Icons/6.png"> Compilación
 
 ```
-flex source.l
-gcc -o source lex.yy.c -ll;
+>> flex source.l
+>> gcc -o source lex.yy.c -ll;
 ```
 
 #### <img src="Icons/4.png"> Ejecución

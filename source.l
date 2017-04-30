@@ -1,7 +1,7 @@
 %{
 
 /*
-* LABORATORIO 2 - FUNDAMENTOS DE CIENCIA DE LA COMPUTACIÓN - USACH | 1 Mayo 2017
+* LABORATORIO 2 - FUNDAMENTOS DE CIENCIA DE LA COMPUTACIÓN - USACH | 2 Mayo 2017
 * ===============================================================================
 *
 * Este programa realiza las siguientes tareas a partir de un archivo:
@@ -19,7 +19,7 @@
 *
 * Contribuir
 * -------------
-* - link github
+* - https://github.com/davidsanhuezaandreus/Lab2-Fundamentos
 *
 * Soporte
 * -------------
