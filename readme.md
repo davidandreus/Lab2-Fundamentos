@@ -29,5 +29,5 @@ En este laboratorio se solicita desarrollar un programa en **Lex** tal que:
 #### <img src="Icons/4.png"> Ejecución
 
 ```
->> ./source
+>> ./source <input.txt
 ```

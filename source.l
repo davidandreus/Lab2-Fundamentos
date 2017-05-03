@@ -1,7 +1,7 @@
 %{
 
 /*
-* LABORATORIO 2 - FUNDAMENTOS DE CIENCIA DE LA COMPUTACIÓN - USACH | 2 Mayo 2017
+* LABORATORIO 2 - FUNDAMENTOS DE CIENCIA DE LA COMPUTACIÓN - USACH | Mayo 2017
 * ===============================================================================
 *
 * Este programa realiza las siguientes tareas a partir de un archivo:
@@ -15,7 +15,7 @@
 *       gcc -o source lex.yy.c -ll
 *
 * Instrucciones para Ejecutar:
-*       ./source
+*       ./source <input.txt
 *
 * Contribuir
 * -------------
@@ -24,9 +24,7 @@
 * Soporte
 * -------------
 * Si tiene problemas, comuníquenoslo.
-* Dirección de correo: david.sanhueza.a@usach.cl
 *
-* Autores: Brady Cardenas - David Sanhueza
 *
 */
 
@@ -44,7 +42,6 @@ int num = 0;
 %%
 
 int main(){
-    yyin = fopen("texto.txt", "r"); // Abre el Archivo de Texto
     yylex();
     printf("\nCantidad de Enteros = %d\n", num);
     return 0;
